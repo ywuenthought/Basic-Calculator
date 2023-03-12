@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.base-size {
+    width: 500px;
+    height: 720px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 6px 6px 1px rgb(220, 220, 220);
+    border-radius: 20px;
+    padding: 35px;
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+
+.button-layout {
+    display: grid;
+    height: 85%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}

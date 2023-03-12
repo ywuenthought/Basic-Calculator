@@ -1,0 +1,23 @@
+.button-font {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: -1px -1px 1px rgb(224, 224, 224);
+    text-align: center;
+}
+
+.main-screen-font {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'DS-Digital', sans-serif;
+    text-align: right;
+}
+
+.traceback-font {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'DS-Digital', sans-serif;
+    text-align: right;
+    writing-mode: horizontal-tb;
+}
